@@ -21,7 +21,7 @@ int main(void)
  * Return: Always 0 (Success)
 */
 
-	for (ch = 0; ch < 8; ++ch)
+	for (ch = 0; ch < 8; ch=ch+1 )
 		_putchar(str[ch]);
 	_putchar('\n');
 
